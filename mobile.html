@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mobile Shop</title>
+  <link rel="stylesheet" href="mobil.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1> Shiva Danush MobileShop</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Latest Smartphones at Best Prices!</h2>
+      <p>Explore our top picks today.</p>
+    </div>
+  </section>
+
+  <section class="products">
+    <div class="container">
+      <h3>Featured Products</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="shopping.webp" alt="Phone 1" />
+          <h4>iPhone 14 Pro</h4>
+          <p>$65000</p>
+        </div>
+        <div class="product-card">
+          <img src="samsung m35.jpg" alt="Phone 2" />
+          <h4>Samsung M35 5G</h4>
+          <p>$2000</p>
+        </div>
+        <div class="product-card">
+          <img src="one1.jpg" alt="Phone 3" />
+          <h4>OnePlus 11</h4>
+          <p>$25000</p>
+        </div>
+        <div class="product-card">
+          <img src="nokia.jpg" alt="Phone 3" />
+          <h4>Old Nokia 01</h4>
+          <p>$1200</p>
+        </div>
+        <div class="product-card">
+          <img src="nokia2.jpg" alt="Phone 3" />
+          <h4>Nokia Plus 11</h4>
+          <p>$1500</p>
+        </div>
+        <div class="product-card">
+          <img src="g,jpg.jpg" alt="Phone 3" />
+          <h4>redmi 12</h4>
+          <p>$13000</p>
+        </div>
+        <div class="product-card">
+          <img src="hk.jpg" alt="Phone 3" />
+          <h4>Samsung 11</h4>
+          <p>$25000</p>
+        </div>
+        <div class="product-card">
+          <img src="old.jpg" alt="Phone 3" />
+          <h4>Nokia old 11</h4>
+          <p>$2000</p>
+        </div>
+        <div class="product-card">
+          <img src="lklk.jpg" alt="Phone 3" />
+          <h4>samsung  11</h4>
+          <p>$15000</p>
+        </div>
+        <div class="product-card">
+          <img src="oldnokia.jpg" alt="Phone 3" />
+          <h4>Nokia 151</h4>
+          <p>$1500</p>
+        </div>
+        <div class="product-card">
+          <img src="w4.jpg" alt="Phone 3" />
+          <h4>Nokia 14</h4>
+          <p>$2500</p>
+        </div>
+        <div class="product-card">
+          <img src="w3.jpg" alt="Phone 3"  />
+          <h4>  Vivo 20</h4>
+          <p>$19000</p>
+        </div>
+        <div class="product-card">
+          <img src="w2.jpg" alt="Phone 3" />
+          <h4>Vivo 16N</h4>
+          <p>$15000</p>
+        </div>
+        <div class="product-card">
+          <img src="w1.jpg" alt="Phone 3" />
+          <h4>Vivo A12</h4>
+          <p>$2000</p>
+        </div>
+        <div class="product-card">
+          <img src="w6.jpg" alt="Phone 3" />
+          <h4>Oppo 15</h4>
+          <p>$23000</p>
+        </div>
+        <div class="product-card">
+          <img src="w5.jpg" alt="Phone 3" />
+          <h4>Moto 12</h4>
+          <p>$50000</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <body>
+
+  <h2>Mobile Booking Form</h2>
+
+  <form action="/submit-booking" method="GET">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="phone">Mobile Number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+    <label for="model">Mobile Model:</label>
+    <input type="text" id="model" name="model" required>
+
+    <label for="service">Service Type:</label>
+    <select id="service" name="service" required>
+      <option value="">Select a service</option>
+      <option value="repair">Repair</option>
+      <option value="replacement">Replacement</option>
+      <option value="checkup">Check-up</option>
+    </select>
+
+    <label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Preferred Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <button type="submit">Book Now</button>
+  </form>
+
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 MobileShop. All rights reserved.
+        +91 6305341119</p>
+    </div>
+  </footer>
+</body>
+</html>
